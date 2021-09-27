@@ -1,0 +1,207 @@
+{
+    "reservationtype": "Airspace Reservation",
+    "formguid": "44d09af7-07e4-4da4-ba98-219676589136",
+    "formtitle": "Temporary Danger Zone",
+    "userid": 2,
+    "operatortype": null,
+    "status": null,
+    "Map": {
+      "isMapEnable": true,
+      "Shape": [
+        "Circle",
+        "Polygon",
+        "Freehand"
+      ]
+    },
+    "sections": [
+      {
+        "isIterable": false,
+        "sectionName": "Primary Information",
+        "sectionDescription": null,
+        "sectionSequence": 1,
+        "isHidden": false,
+        "fields": [
+          {
+            "id": 1,
+            "dataType": "date",
+            "fieldName": "startdate",
+            "fieldLabel": "Start date",
+            "fieldInfo": "",
+            "fieldSeq": 1,
+            "suggestionURL": "",
+            "type": "System",
+            "value": "2021-09-23",
+            "iconlink": null,
+            "style": {
+              "col": "6",
+              "offsetCol": ""
+            },
+            "masterData": null,
+            "validations": {
+              "rangeFrom": "",
+              "rangeTo": "",
+              "length": "",
+              "required": "true",
+              "unique": "false",
+              "operator": "",
+              "regexExample": "",
+              "regex": "",
+              "matchText": "",
+              "isNotEquals": "false"
+            },
+            "isEnabled": true,
+            "isRisk": false,
+            "displayRule": null,
+            "disableRule": null,
+            "parentField": null
+          },
+          {
+            "id": 2,
+            "dataType": "date",
+            "fieldName": "enddate",
+            "fieldLabel": "End Date",
+            "fieldInfo": "",
+            "fieldSeq": 2,
+            "suggestionURL": "",
+            "type": "System",
+            "value": "2021-09-28",
+            "iconlink": null,
+            "style": {
+              "col": "6",
+              "offsetCol": ""
+            },
+            "masterData": null,
+            "validations": {
+              "rangeFrom": "",
+              "rangeTo": "",
+              "length": "",
+              "required": "true",
+              "unique": "false",
+              "operator": "",
+              "regexExample": "",
+              "regex": "",
+              "matchText": "",
+              "isNotEquals": "false"
+            },
+            "isEnabled": true,
+            "isRisk": false,
+            "displayRule": null,
+            "disableRule": null,
+            "parentField": null
+          },
+          {
+            "id": 3,
+            "dataType": "time",
+            "fieldName": "starttime",
+            "fieldLabel": "Start Time",
+            "fieldInfo": "",
+            "fieldSeq": 3,
+            "suggestionURL": "",
+            "type": "System",
+            "value": "10:40",
+            "iconlink": null,
+            "style": {
+              "col": "6",
+              "offsetCol": ""
+            },
+            "masterData": null,
+            "validations": {
+              "rangeFrom": "",
+              "rangeTo": "",
+              "length": "",
+              "required": "true",
+              "unique": "false",
+              "operator": "",
+              "regexExample": "",
+              "regex": "",
+              "matchText": "",
+              "isNotEquals": "false"
+            },
+            "isEnabled": true,
+            "isRisk": false,
+            "displayRule": null,
+            "disableRule": null,
+            "parentField": null
+          }
+        ]
+      },
+      {
+        "isIterable": false,
+        "sectionName": "Application",
+        "sectionDescription": null,
+        "sectionSequence": 2,
+        "isHidden": false,
+        "fields": [
+          {
+            "id": 1,
+            "dataType": "string",
+            "fieldName": "customerReference",
+            "fieldLabel": "Customer’s reference:",
+            "fieldInfo": "(Enter a name to identify the area, e.g. a place name such as Halsua)",
+            "fieldSeq": 1,
+            "suggestionURL": "",
+            "type": "System",
+            "value": "2342",
+            "iconlink": null,
+            "style": {
+              "col": "6",
+              "offsetCol": "6"
+            },
+            "masterData": null,
+            "validations": {
+              "rangeFrom": "",
+              "rangeTo": "",
+              "length": "",
+              "required": "true",
+              "unique": "false",
+              "operator": "",
+              "regexExample": "",
+              "regex": "",
+              "matchText": "",
+              "isNotEquals": "false"
+            },
+            "isEnabled": true,
+            "isRisk": false,
+            "displayRule": null,
+            "disableRule": null,
+            "parentField": null
+          },
+          {
+            "id": 10,
+            "dataType": "string",
+            "fieldName": "contactInformation",
+            "fieldLabel": "Contact information",
+            "fieldInfo": "(One or more items of contact information to be published in NOTAM, separated by a comma, e.g. 0501231234, 0401234567, FREQ 155.150)",
+            "fieldSeq": 10,
+            "suggestionURL": "",
+            "type": "System",
+            "value": "23223",
+            "iconlink": null,
+            "style": {
+              "col": "6",
+              "offsetCol": ""
+            },
+            "masterData": null,
+            "validations": {
+              "rangeFrom": "",
+              "rangeTo": "",
+              "length": "",
+              "required": "true",
+              "unique": "false",
+              "operator": "",
+              "regexExample": "",
+              "regex": "",
+              "matchText": "",
+              "isNotEquals": "false"
+            },
+            "isEnabled": true,
+            "isRisk": false,
+            "displayRule": null,
+            "disableRule": null,
+            "parentField": null
+          }
+        ]
+      }
+    ],
+    "isfavourite": true
+  }

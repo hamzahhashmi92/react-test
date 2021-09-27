@@ -1,0 +1,423 @@
+{
+    "reservationtype": "FPL Form",
+    "userid": "2",
+    "formtitle": "FPL Form",
+    "isChatEnable": true,
+    "formguid": "53418ba3-159f-424d-8a66-ce494bae7e08",
+    "isFavourite": false,
+    "operatortype": "null",
+    "status": "Activated",
+    "Map": {
+        "isMapEnable": false,
+        "Shape": [
+            "Circle",
+            "Polygon",
+            "Freehand"
+        ]
+    },
+    "sections": [
+        {
+            "isIterable": false,
+            "sectionName": "Primary Information",
+            "sectionSequence": 1,
+            "sectionDescription": "",
+            "isHidden": true,
+            "fields": [
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "6",
+                        "offsetCol": ""
+                    },
+                    "id": 6,
+                    "dataType": "int32",
+                    "fieldName": "minaltitude",
+                    "fieldLabel": "Min Altitude",
+                    "type": "System",
+                    "value": "",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "6",
+                        "offsetCol": ""
+                    },
+                    "id": 7,
+                    "dataType": "int32",
+                    "fieldName": "maxaltitude",
+                    "fieldLabel": "Max Altitude",
+                    "type": "System",
+                    "value": "",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "6",
+                        "offsetCol": ""
+                    },
+                    "id": 8,
+                    "dataType": "int32",
+                    "fieldName": "radius",
+                    "fieldLabel": "Radius",
+                    "type": "System",
+                    "value": "",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [
+                        {
+                            "fieldName": "___",
+                            "value": "___"
+                        }
+                    ],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "6",
+                        "offsetCol": ""
+                    },
+                    "id": 9,
+                    "dataType": "string",
+                    "fieldName": "pathmode",
+                    "fieldLabel": "Pathmode",
+                    "type": "System",
+                    "value": "",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [
+                        {
+                            "fieldName": "___",
+                            "value": "___"
+                        }
+                    ],
+                    "disableRule": []
+                }
+            ]
+        },
+        {
+            "isIterable": false,
+            "sectionName": "FPL Form",
+            "sectionSequence": 2,
+            "sectionDescription": "",
+            "isHidden": false,
+            "fields": [
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "false",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "12",
+                        "offsetCol": ""
+                    },
+                    "id": 1,
+                    "dataType": "string",
+                    "fieldName": "Addresses",
+                    "fieldLabel": "ADDRESSEE(S) OSOITTEET",
+                    "type": "System",
+                    "value": "Danish",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "6",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "4",
+                        "offsetCol": ""
+                    },
+                    "id": 2,
+                    "dataType": "string",
+                    "fieldName": "AircraftIdentification",
+                    "fieldLabel": "7 AIRCRAFT IDENTIFICATION ILMA-ALUKSEN TUNNUS",
+                    "type": "System",
+                    "value": "jshhjwhs",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "4",
+                        "offsetCol": ""
+                    },
+                    "id": 3,
+                    "dataType": "dropdown",
+                    "fieldName": "FlightRules",
+                    "fieldLabel": "8 FLIGHT RULES LENTOSÄÄNNÖT",
+                    "type": "System",
+                    "value": "IFR",
+                    "masterData": [
+                        {
+                            "id": 1,
+                            "name": "IFR"
+                        },
+                        {
+                            "id": 2,
+                            "name": "VFR"
+                        },
+                        {
+                            "id": 3,
+                            "name": "IFR then VFR"
+                        },
+                        {
+                            "id": 4,
+                            "name": "VFR the IFR"
+                        }
+                    ],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "4",
+                        "offsetCol": ""
+                    },
+                    "id": 4,
+                    "dataType": "dropdown",
+                    "fieldName": "TypeOfFlight",
+                    "fieldLabel": "TYPE OF FLIGHT LENNON LAATU",
+                    "type": "System",
+                    "value": "SCHEDULED (S)",
+                    "masterData": [
+                        {
+                            "id": 1,
+                            "name": "SCHEDULED (S)"
+                        },
+                        {
+                            "id": 2,
+                            "name": "NON SCHEDULED (N)"
+                        },
+                        {
+                            "id": 3,
+                            "name": "GENERAL (G)"
+                        },
+                        {
+                            "id": 4,
+                            "name": "MILITARY (M)"
+                        },
+                        {
+                            "id": 5,
+                            "name": "OTHER (X)"
+                        }
+                    ],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "2",
+                        "operator": "",
+                        "required": "false",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "4",
+                        "offsetCol": ""
+                    },
+                    "id": 5,
+                    "dataType": "int32",
+                    "fieldName": "NumberOfAircraft",
+                    "fieldLabel": "9 NUMBER LUKUMÄÄRÄ",
+                    "type": "System",
+                    "value": "6424",
+                    "masterData": [],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                },
+                {
+                    "pretext": "",
+                    "posttext": "",
+                    "suggestionURL": "",
+                    "validations": {
+                        "rangeFrom": "",
+                        "rangeTo": "",
+                        "length": "",
+                        "operator": "",
+                        "required": "true",
+                        "unique": "false",
+                        "regex": "",
+                        "regexExample": "",
+                        "matchText": "",
+                        "isNotEquals": "false"
+                    },
+                    "style": {
+                        "col": "4",
+                        "offsetCol": ""
+                    },
+                    "id": 7,
+                    "dataType": "dropdown",
+                    "fieldName": "WakeTurbulenceCat",
+                    "fieldLabel": "WAKE TURBULENCE CAT. PYÖRREVANALUOKKA",
+                    "type": "System",
+                    "value": "M",
+                    "masterData": [
+                        {
+                            "id": 1,
+                            "name": "J"
+                        },
+                        {
+                            "id": 2,
+                            "name": "H"
+                        },
+                        {
+                            "id": 3,
+                            "name": "M"
+                        },
+                        {
+                            "id": 4,
+                            "name": "L"
+                        }
+                    ],
+                    "isEnabled": true,
+                    "isRisk": false,
+                    "displayRule": [],
+                    "disableRule": []
+                }
+            ]
+        }
+    ]
+}
